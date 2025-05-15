@@ -200,11 +200,13 @@ nav ul li a {
     margin-bottom: 30px; /* Adicionado um pouco mais de espaço abaixo do título */
     color: white;
 }
-.projeto {
-    background: dimgray;
-    padding: 30px;
-    border-radius: 40px;
-    box-shadow: 10px 10px 20px rgba(200, 100, 100);
+.projeto img {
+    width: 100%; /* Isso faz a imagem ocupar 100% da largura do seu contêiner (.projeto) */
+    height: 200px; /* Define uma altura fixa para todas as imagens dos projetos */
+    object-fit: cover; /* Isso garante que a imagem cubra a área definida, cortando o excesso se necessário, sem distorcer */
+    border-radius: 8px; /* Arredonda as bordas da imagem, se desejar */
+    margin-bottom: 15px; /* Adiciona um pequeno espaço abaixo da imagem */
+}
 .botao {
     display: inline-block;
     padding: 10px 15px;
