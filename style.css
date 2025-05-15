@@ -187,7 +187,19 @@ nav ul li a {
     border-radius: 40px;
     box-shadow: 10px 10px 20px rgba(200, 100, 100);
 }
+/* Estilo para a nova seção de Projetos Acadêmicos */
+#projetos-academicos {
+    background-color: #2a2a2a; /* Uma cor um pouco diferente para destacar */
+    padding: 50px 20px;
+    color: white;
+}
 
+#projetos-academicos h2 {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 30px; /* Adicionado um pouco mais de espaço abaixo do título */
+    color: white;
+}
 .botao {
     display: inline-block;
     padding: 10px 15px;
